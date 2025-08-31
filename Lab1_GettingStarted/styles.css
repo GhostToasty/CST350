@@ -7,12 +7,52 @@ body {
 h1 {
     text-align: center;
     border-bottom: white 1px solid;
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, a {
+    font-size: 18px;
 }
 
 a {
-   color: #7dffa0; 
+    color: #7dffa0;
 }
 
-.border {
+img {
+    width: 200px;
+}
+
+/* Index */
+#paragraph {
+    margin: 0.5em 0em;
+}
+
+/* About Us */
+.aboutGroup{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5em 0em;
+}
+
+.aboutText {
+    padding-left: 2em;
+}
+
+.buttonBottom {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #0B1924;
     
+}
+
+.buttonBottom button{
+    background-color: white;
+    padding: 0.5em 1em;
+    margin: 1em;
+    font-size: 18px;
 }
