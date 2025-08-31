@@ -1,0 +1,18 @@
+body {
+    background-image: linear-gradient(to bottom, #2A608A, #0B1924);
+    color: white;
+    margin: 4em 6em;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: white 1px solid;
+}
+
+a {
+   color: #7dffa0; 
+}
+
+.border {
+    
+}
