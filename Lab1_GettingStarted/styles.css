@@ -52,7 +52,7 @@ img {
 .aboutGroup{
     display: flex;
     flex-direction: row;
-    margin: 0.5em 0em;
+    margin: 2em 0em;
    
 }
 
