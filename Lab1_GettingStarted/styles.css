@@ -77,3 +77,25 @@ a {
 .about-pics{
     width: 200px;
 }
+
+.about-pics{
+    width: 200px;
+}
+
+.images-row {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+
+}
+
+.images {
+    padding:20px;
+}
+
+.big-image {
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+ }
