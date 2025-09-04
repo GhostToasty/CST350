@@ -56,10 +56,15 @@ a {
     padding: 15px 20px;
 }
 
+.fish {
+    width:100%;
+    margin-top: 20px;
+}
+
 
 /* Index */
 #paragraph {
-    margin: 0.5em 0em;
+    margin: 40px;
 }
 
 .images-row {
@@ -69,7 +74,7 @@ a {
 }
 
 .images {
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .captions{
@@ -81,6 +86,12 @@ a {
     width: 30%;
 }
 
+.captions-row {
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
 
 .big-image {
     margin: 0 auto;
@@ -102,11 +113,4 @@ a {
 
 .about-pics{
     width: 200px;
-}
-
-.fish {
-
-    width:100%;
-    margin-top: 20px;
-
 }
