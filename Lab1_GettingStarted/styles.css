@@ -72,6 +72,16 @@ a {
     padding: 20px;
 }
 
+.captions{
+    display: flex;
+}
+
+.captions p {
+    padding: 0 1em;
+    width: 30%;
+}
+
+
 .big-image {
     margin: 0 auto;
     width: 95%;
@@ -92,4 +102,11 @@ a {
 
 .about-pics{
     width: 200px;
+}
+
+.fish {
+
+    width:100%;
+    margin-top: 20px;
+
 }
