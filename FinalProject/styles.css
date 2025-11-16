@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(to bottom, #2A608A, #0B1924);
+    color: white;
+    margin: 4em 6em;
+    font-family:Jost,sans-serif;
+}
+
+.interactable{
+    margin: 0 auto;
+    /*width: 5%;*/
+    width:3em;
+    height:auto;
+    padding: 5px 20px
+    /*scale: 15%*/
+}
+
+.journal-popUp img {
+    margin: 0 auto;
+    /*width :5%;*/
+    width:3em;
+    height:auto;
+
+}
