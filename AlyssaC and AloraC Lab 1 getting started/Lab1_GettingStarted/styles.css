@@ -1,0 +1,105 @@
+/* Fonts */
+.jockey-one-regular {
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jost-regular> {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Overall Site */
+body {
+    background-image: linear-gradient(to bottom, #2A608A, #0B1924);
+    color: white;
+    margin: 4em 6em;
+    font-family:Jost,sans-serif;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: white 1px solid;
+    font-size: 52px;
+    font-family:Jost,sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, a {
+    font-size: 18px;
+}
+
+a {
+    color: #7dffa0;
+}
+
+.linkBottom {
+    margin: 1em auto;
+    width: 10%;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    background-color:white;
+    color: #0B1924;
+    padding: 15px 20px;
+}
+
+.linkBottom:hover {
+    background-color:#2A608A;
+    color: white;
+    padding: 15px 20px;
+}
+
+
+/* Index */
+#paragraph {
+    margin: 0.5em 0em;
+}
+
+.images-row {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.images {
+    padding: 20px;
+}
+
+.captions{
+    display: flex;
+}
+
+.captions p {
+    padding: 0 1em;
+    width: 30%;
+}
+
+
+.big-image {
+    margin: 0 auto;
+    width: 95%;
+    padding: 5px 20px
+ }
+
+
+/* About Us */
+.aboutGroup{
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0em;
+}
+
+.aboutText {
+    padding-left: 2em;
+}
+
+.about-pics{
+    width: 200px;
+}
