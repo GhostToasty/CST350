@@ -35,23 +35,78 @@ h3 {
     background-color: #79ADCF;
  }
 
- .animal {
-    background-color:aqua;
-    border-radius: 5px;
+.animal, .trash, .game-elements {
+    /*background-color:aqua;
+    border-radius: 5px;*/
+    /* margin: 0 auto; */ 
+    padding: 50px 50px
  }
 
- .trash {
-    background-color:aqua;
-    border-radius: 5px;
- }
-.interactable{
-    margin: 0 auto;
-    /*width: 5%;*/
-    width:3em;
-    height:auto;
-    padding: 5px 20px
-    /*scale: 15%*/
+
+
+.game{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
+
+#turtle-game{
+    width: 300px;
+    height: auto;
+    align-self: flex-start
+}
+
+#bag-game{
+    width: 200px;
+    height: auto;
+    align-self: flex-end
+}
+
+#jellyfish-game{
+    width: 300px;
+    height: auto;
+    align-self: center
+}
+
+#straw-game{
+    width: 200px;
+    height: auto;
+    align-self: flex-start
+}
+
+#fish-game{
+    width: 300px;
+    height: auto;
+    align-self: center
+}
+
+#oil-game{
+    width: 300px;
+    height: auto;
+    align-self: flex-end
+}
+
+#crab-game{
+    width: 300px;
+    height: auto;
+    align-self: flex-start
+}
+
+#bottle-game{
+    width: 150px;
+    height: auto;
+    align-self: center
+}
+
+.game-elements{
+    width: 400px;
+    height: auto;
+}
+
+
+
+
+
 
 .journal-popUp img {
     margin: 0 auto;
@@ -64,12 +119,10 @@ h3 {
 
 .animal-images-popUp {
     padding-left: 25%;
-    
 }
 
 .trash-images-popUp {
     padding-left: 25%;
-    
 }
 
 .info-popUp {
@@ -84,12 +137,15 @@ h3 {
     padding:50px;
 }
 
+.animal-popUp{
+    background-color:aqua;
+    border-radius: 5px;
+}
 
-
-
-
-
-
+.trash-popUp{
+    background-color:aqua;
+    border-radius: 5px;
+}
 
 
 
