@@ -3,6 +3,7 @@ body {
     color: white;
     margin: 4em 6em;
     font-family:Jost,sans-serif;
+    margin: 0px;
 }
 
 
@@ -22,17 +23,18 @@ h3 {
 }
 .start {
     background-color:#79ADCF;
-    margin: 20px;
-
+    padding: 20px 80px;
  }
 
  .how {
     background-color:#a4cbeb;
+    padding: 20px 80px;
  }
 
  .guide-content {
 
     background-color: #79ADCF;
+    padding: 20px 80px;
  }
 
 .animal, .trash, .game-elements {
@@ -126,7 +128,9 @@ h3 {
 }
 
 .info-popUp {
-    background-color:#a4cbeb;   
+    background-color:#a4cbeb;
+    margin: 0px 200px;
+    padding: 20px 80px;   
 }
 
 .info-popUp p {
