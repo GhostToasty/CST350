@@ -26,18 +26,18 @@ h3 {
     padding: 20px 80px;
  }
 
- .how {
+.how {
     background-color:#a4cbeb;
     padding: 20px 80px;
  }
 
- .guide-content {
+.guide-content {
 
     background-color: #79ADCF;
     padding: 20px 80px;
  }
 
-.animal, .trash, .game-elements {
+.gameObject {
     /*background-color:aqua;
     border-radius: 5px;*/
     /* margin: 0 auto; */ 
@@ -109,6 +109,9 @@ h3 {
 #player{
     width: 400px;
     height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 
