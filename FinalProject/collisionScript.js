@@ -22,7 +22,43 @@ function checkOverlap(element1, element2) {
 
 /* */
 
-// let player = document.querySelector("#player");
-// let objects = document.querySelectorAll(".gameObject")
 
-// console.log(checkOverlap(player, gameObject));
+let player = document.querySelector("#player");
+let gameInfo = document.querySelector(".gameInfo");
+gameInfo.style.display = "none"
+
+console.log(player)
+// let objects = document.querySelectorAll(".gameObject");
+// console.log(appData.interactable[0])
+
+function checkCollision(){ 
+	let item = 0
+	for (let object of appData.interactable){
+		console.log("new")
+		// console.log(appData.interactable[item].idGame);
+
+		// let itemID = document.querySelector("#" + appData.interactable[item].idGame)
+		let itemID = document.querySelector("#" + appData.interactable[item].idGame)
+		let itemInfo = document.querySelector("#" + appData.interactable[item].idInfo)
+
+		// console.log("#" + appData.interactable[item].idGame)
+		// console.log("#" + appData.interactable[item].idGame)
+		// console.log("#" + appData.interactable[0].idGame)
+		// console.log(itemID)
+
+		// appData.interactable[item].idGame;
+		if (checkOverlap(player, itemID)){
+			console.log("true: " + itemID);
+			if (itemInfo.style.display === "none")
+				itemInfo.style.display = "block"
+			break;
+		}
+		else
+			itemInfo.style.display = "none"
+
+		
+
+		item += 1;
+
+	}
+}
