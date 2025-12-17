@@ -1,3 +1,5 @@
+//adds collision function to make info box popups appear and dissappear
+
 /*copy this function into your code */
 function checkOverlap(element1, element2) {
 	let rect1 = element1.getBoundingClientRect();
@@ -24,47 +26,33 @@ function checkOverlap(element1, element2) {
 
 
 let player = document.querySelector("#player");
-let gameInfo = document.querySelector(".gameInfo");
-gameInfo.style.display = "none"
 
+//loops through and hides all info boxes 
 for(let object of appData.interactable){
 	let itemInfo = document.querySelector("#" + object.idInfo)
 	itemInfo.style.display = "none"
 }
 
 
-console.log(player)
-// let objects = document.querySelectorAll(".gameObject");
-// console.log(appData.interactable[0])
-
+//runs every time the player moves 
 function checkCollision(){ 
-	let item = 0
 	for (let object of appData.interactable){
-		console.log("new")
-		// console.log(appData.interactable[item].idGame);
 
-		// let itemID = document.querySelector("#" + appData.interactable[item].idGame)
+		//gets IDs of a new item every time it loops 
 		let itemID = document.querySelector("#" + object.idGame)
 		let itemInfo = document.querySelector("#" + object.idInfo)
 
-		// console.log("#" + appData.interactable[item].idGame)
-		// console.log("#" + appData.interactable[item].idGame)
-		// console.log("#" + appData.interactable[0].idGame)
-		// console.log(itemID)
-
-		// appData.interactable[item].idGame;
+		//checks if player is colliding with item 
 		if (checkOverlap(player, itemID)){
-			console.log("true: " + itemID);
 			if (itemInfo.style.display === "none")
+				//displays item if they are colliding
 				itemInfo.style.display = "block"
+				//marks item as discovered
+				object.discovered = true
 			break;
 		}
 		else
+			//keeps items hidden or rehides item is player is no longer colliding 
 			itemInfo.style.display = "none"
-
-		
-
-		// item += 1;
-
 	}
 }
