@@ -1,11 +1,19 @@
 
-
+//main screen definitions
 let start = document.querySelector(".start");
 let how = document.querySelector(".how");
 let game = document.querySelector(".game");
-//hides the how page 
+let guide = document.querySelector (".guide-content");
+let info = document.querySelector(".info-popUp");
+//journal definition
+let journal = document.querySelector("#scoutGuide");
+
+//hides all but start page 
 how.style.display = "none";
 game.style.display = "none";
+guide.style.display ="none";
+info.style.display ="none";
+
 
 //
 let button = document.querySelector (".linkBottom");
@@ -15,9 +23,12 @@ console.log("start");
 
 if (how.style.display === "none")
     how.style.display = "block";
+//hides other pages
 
  start.style.display = "none";
  game.style.display = "none";
+ guide.style.display ="none";
+ info.style.display ="none";
 
 
 });
@@ -39,8 +50,24 @@ if (game.style.display === "none"){
     
 
 how.style.display = "none";
+guide.style.display ="none";
+info.style.display ="none";
 
 });
+
+//guide display
+//makes the journal clickable
+ journal.addEventListener('click',function(){
+ console.log("journal clicked");
+
+if (guide.style.display === "none")
+    guide.style.display = "block";
+
+
+
+});
+
+
 
 
 
