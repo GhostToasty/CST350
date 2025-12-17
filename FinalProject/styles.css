@@ -37,6 +37,9 @@ h3 {
     padding: 20px 80px;
  }
 
+
+ /* Game */
+
 .gameObject {
     /*background-color:aqua;
     border-radius: 5px;*/
@@ -52,8 +55,6 @@ h3 {
     position: absolute;
  }
 
-
-
 .game{
     display: flex;
     flex-direction: column;
@@ -63,7 +64,7 @@ h3 {
 #turtle-game{
     width: 300px;
     height: auto;
-    align-self: flex-start;
+    align-self: center;
 }
 
 #bag-game{
@@ -115,7 +116,7 @@ h3 {
 
 
 #player{
-    width: 400px;
+    width: 300px;
     height: auto;
     position: absolute;
     top: 0px;
@@ -123,11 +124,11 @@ h3 {
 }
 
 #scoutGuide{
-    width: 150px;
+    width: 85px;
     
     position: fixed;
-    bottom:0;
-    left:0;
+    bottom:15px;
+    right:15px;
 }
 
 .journal-popUp img {
@@ -135,9 +136,49 @@ h3 {
     /*width :5%;*/
     width:10em;
     height:auto;
-    
-
 }
+
+#turtle-info{
+    align-self: center;  
+}
+
+#bag-info {
+    align-self: flex-end;
+    top: 225px;
+}
+
+#jellyfish-info{
+    align-self: center;
+    top: 485px;
+}
+
+#straw-info{
+    align-self: flex-start;
+    top: 875px;
+}
+
+#fish-info{
+    align-self: center;  
+    top: 1090px;
+}
+
+#oil-info{
+    align-self: flex-end;
+    top: 1340px;
+}
+
+#crab-info{
+    align-self: flex-start;
+    top: 1380px;
+}
+
+#bottle-info{
+    align-self: center;
+    top: 1600px;
+}
+
+
+/* Pop Ups */
 
 .animal-images-popUp {
     padding-left: 25%;
@@ -204,14 +245,12 @@ h3 {
 }
 
 .linkBottom:hover {
-    background-color:#2A608A
-    ;
+    background-color:#2A608A;
     color: white;
     padding: 15px 20px;
 }
 .linkBottom2:hover {
-    background-color:#2A608A
-    ;
+    background-color:#2A608A;
     color: white;
     padding: 15px 20px;
 }

@@ -27,6 +27,12 @@ let player = document.querySelector("#player");
 let gameInfo = document.querySelector(".gameInfo");
 gameInfo.style.display = "none"
 
+for(let object of appData.interactable){
+	let itemInfo = document.querySelector("#" + object.idInfo)
+	itemInfo.style.display = "none"
+}
+
+
 console.log(player)
 // let objects = document.querySelectorAll(".gameObject");
 // console.log(appData.interactable[0])
@@ -38,8 +44,8 @@ function checkCollision(){
 		// console.log(appData.interactable[item].idGame);
 
 		// let itemID = document.querySelector("#" + appData.interactable[item].idGame)
-		let itemID = document.querySelector("#" + appData.interactable[item].idGame)
-		let itemInfo = document.querySelector("#" + appData.interactable[item].idInfo)
+		let itemID = document.querySelector("#" + object.idGame)
+		let itemInfo = document.querySelector("#" + object.idInfo)
 
 		// console.log("#" + appData.interactable[item].idGame)
 		// console.log("#" + appData.interactable[item].idGame)
@@ -58,7 +64,7 @@ function checkCollision(){
 
 		
 
-		item += 1;
+		// item += 1;
 
 	}
 }
