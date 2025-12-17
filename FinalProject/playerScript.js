@@ -44,6 +44,8 @@ document.addEventListener("keydown", function(event){
         currPosHor = currPosHor + movement
     } 
 
+    checkCollision()
+
     // console.log("style: " + player.style.top)
     // console.log("currHor: " + currPosVer)
 

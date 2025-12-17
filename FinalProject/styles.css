@@ -41,7 +41,15 @@ h3 {
     /*background-color:aqua;
     border-radius: 5px;*/
     /* margin: 0 auto; */ 
-    padding: 50px 50px
+    margin: 25px 25px
+ }
+
+ .gameInfo {
+    background-color: white;
+    color: #0B1924;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
  }
 
 
@@ -55,7 +63,7 @@ h3 {
 #turtle-game{
     width: 300px;
     height: auto;
-    align-self: flex-start
+    align-self: flex-start;
 }
 
 #bag-game{
