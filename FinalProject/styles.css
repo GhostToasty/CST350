@@ -114,7 +114,13 @@ h3 {
     left: 0px;
 }
 
-
+#scoutGuide{
+    width: 150px;
+    
+    position: fixed;
+    bottom:0;
+    left:0;
+}
 
 .journal-popUp img {
     margin: 0 auto;
